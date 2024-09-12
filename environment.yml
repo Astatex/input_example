@@ -1,0 +1,11 @@
+name: check_input
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - requests=2.31.0
+  - selenium=
+  - webdriver-manager=4.0.2
+  - pytest
+  - pip:
+      - allure-pytest
